@@ -1,0 +1,28 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/textview"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="hello world!"
+       ></TextView>
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="下一张"/>
+    <ImageView
+        android:id="@+id/img"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:src="@drawable/img_girl1"
+        android:layout_height="300dp" />
+
+</LinearLayout>
